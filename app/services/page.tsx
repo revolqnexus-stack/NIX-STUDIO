@@ -35,14 +35,14 @@ const makeupServices = [
 
 /* ──── Category: Haircut ──── */
 const haircutServices = [
-  { name: "Creative Director (By Nikita)", price: "₹2,000" },
-  { name: "Top Stylist", price: "₹1,350" },
-  { name: "Basic Stylist", price: "₹550" },
-  { name: "Kids Cut (Boys)", price: "₹300" },
-  { name: "Fringe / Bangs", price: "₹300" },
-  { name: "Men's Cut", price: "₹400" },
-  { name: "Beard Shaping", price: "₹250" },
-  { name: "Men's Cut + Beard", price: "₹600" },
+  { name: "Creative Director (By Nikita)", price: "₹2,000+" },
+  { name: "Top Stylist", price: "₹1,350+" },
+  { name: "Basic Stylist", price: "₹550+" },
+  { name: "Kids Cut (Boys)", price: "₹300+" },
+  { name: "Fringe / Bangs", price: "₹300+" },
+  { name: "Men's Cut", price: "₹400+" },
+  { name: "Beard Shaping", price: "₹250+" },
+  { name: "Men's Cut + Beard", price: "₹600+" },
 ];
 
 const stylingHeaders = ["Service", "Short", "Medium", "Long", "XL"];
@@ -98,7 +98,7 @@ const spaSingles = [
 const hairTreatments = [
   { name: "Humidity-Resistant Hair Botox (Formaldehyde Free)", price: "₹6,000+", note: "Restoration and smoothing for 'Supermodel' silkiness. Lasts 40–60 washes." },
   { name: "Nanoplastia / Biotin (Formaldehyde Free)", price: "₹6,000+", note: "80–100% straighter, lasts 60–80 washes." },
-  { name: "Permanent Hair Spa", price: "₹3,500+", note: "20–30% straighter, lasts ~15 washes" },
+  { name: "Permanent Hair Spa", price: "₹3,500+", note: "15–20% straighter, lasts ~15 washes" },
   { name: "Smoothening / Straightening Full", price: "₹5,000+" },
   { name: "Smoothening / Straightening Crown", price: "₹3,000+" },
   { name: "Smoothening / Straightening Fringes", price: "₹1,250+" },
@@ -181,20 +181,25 @@ const nlGel = [
   { name: "Ombre / Special", both: "₹1,800", one: "₹1,200" },
   { name: "French Polish", both: "₹2,000", one: "₹1,400" },
   { name: "Gel with Dry Glitter", both: "₹1,600", one: "₹1,000" },
-  { name: "Chrome / Cat Eye", both: "₹1,500", one: "₹850" },
+  { name: "Chrome", both: "₹1,500", one: "₹850" },
+  { name: "Cat Eye", both: "₹1,800", one: "₹1,200" },
+  { name: "Chrome French", both: "₹2,200", one: "₹1,300" },
+  { name: "Cat Eye French", both: "₹2,200", one: "₹1,300" },
   { name: "Dip Powder", both: "₹1,500", one: "₹850" },
-  { name: "BIAB / Gel / Acrylic Overlay", both: "₹1,800", one: "₹1,050" }
+  { name: "BIAB / Gel / Acrylic Overlay", both: "₹2,500", one: "₹1,500" }
 ];
 
 const nlArt = [
   { name: "Nail Art", price: "₹150/finger" },
   { name: "Advanced Nail Art", price: "₹250/finger" },
   { name: "3D Art", price: "₹350/finger" },
+  { name: "3D Nail Art (10 fingers)", price: "₹3,500" },
   { name: "Jewellery", price: "₹200/finger" }
 ];
 
 const nlExt = [
   { name: "New Set Form", both: "₹3,250", one: "₹1,800" },
+  { name: "New Set Form — One Finger / Toe", both: "—", one: "₹350 / ₹450" },
   { name: "New Set Acrylic", both: "₹2,950", one: "₹1,600" },
   { name: "New Set Tip Gel", both: "₹2,950", one: "₹1,600" },
   { name: "Gel Refill", both: "₹2,800", one: "₹1,500" },
@@ -658,6 +663,10 @@ export default function SalonPage() {
                     <div className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-rose rounded-full"></div>
                       <span><strong>Complimentary:</strong> Tea/Coffee/Juice on all services</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-rose rounded-full"></div>
+                      <span><strong>Tax:</strong> All prices inclusive of applicable taxes</span>
                     </div>
                   </div>
                 </div>
@@ -1194,7 +1203,7 @@ export default function SalonPage() {
               {[
                 { title: "Standard Bridal (HD)", price: "₹27,500", desc: "Standard package — HD makeup for engagement, wedding or reception." },
                 { title: "Premium Bridal (Airbrush)", price: "₹40,000", desc: "Signature subtle airbrush glam with luxury international brands." },
-                { title: "Luxury Facials", price: "₹4,500", desc: "Starting price for bridal facials, pigmentation treatments, and clinical skin resurfacing." }
+                { title: "Luxury Facials", price: "₹3,750", desc: "Starting price for luxury facials, pigmentation treatments, and clinical skin resurfacing. Bridal Exclusive Facial ₹5,000." }
               ].map((tier, i) => (
                 <FadeUp key={tier.title} delay={i * 0.1}>
                   <div className="p-8 border border-taupe/15 rounded-2xl hover:border-taupe/30 transition-colors">
