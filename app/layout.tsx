@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Lora, Jost, Cormorant } from "next/font/google";
 import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
 import WhatsAppFloat from "@/components/ui/WhatsAppFloat";
@@ -8,45 +7,6 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import JsonLd from '@/components/JsonLd'
 import { LoadingProvider } from '@/contexts/LoadingContext'
 import "./globals.css";
-
-const playfair = Playfair_Display({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  display: "swap",
-  preload: true,
-  fallback: ['Georgia', 'serif'],
-});
-
-const lora = Lora({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
-  display: "swap",
-  preload: false,
-  fallback: ['Georgia', 'serif'],
-});
-
-const jost = Jost({
-  variable: "--font-sans",
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  display: "swap",
-  preload: false,
-  fallback: ['system-ui', 'sans-serif'],
-});
-
-const cormorant = Cormorant({
-  variable: "--font-script",
-  subsets: ["latin"],
-  weight: ["300", "400"],
-  style: ["italic"],
-  display: "swap",
-  preload: false,
-  fallback: ['Georgia', 'serif'],
-});
 
 export const metadata: Metadata = {
   title: '#1 Premium Bridal Makeup Studio & Luxury Salon in Pala & Kottayam | NIXTUDIO',
@@ -107,7 +67,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${playfair.variable} ${lora.variable} ${jost.variable} ${cormorant.variable}`}
+      className="antialiased"
     >
       <head>
         {/* Critical CSS for above-the-fold content */}
