@@ -144,7 +144,8 @@ const cleanupServices = [
   { name: "Pro Matte Oily Skin Cleanup", price: "₹1,800" },
   { name: "Detan Face", price: "₹600" },
   { name: "Detan Hands", price: "₹1,250" },
-  { name: "Detan Legs", price: "₹1,250" },
+  { name: "Detan (Half Legs)", price: "₹1,250" },
+  { name: "Detan (Full Legs)", price: "₹1,950" },
   { name: "Detan Back / Front", price: "₹1,000" },
   { name: "Detan Full Body", price: "₹4,000" },
 ];
