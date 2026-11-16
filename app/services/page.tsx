@@ -67,33 +67,32 @@ const colorBySenior = [
   { name: "Balayage / Highlights", price: "₹6,000+" },
   { name: "Partial / Half Highlights", price: "₹3,500+" },
   { name: "Ombre", price: "₹5,500+" },
-  { name: "Global Color", price: "₹6,500+" },
-  { name: "Streaks", price: "₹700/streak" },
+  { name: "Global Color", price: "₹5,500+" },
+  { name: "Streaks", price: "₹500/streak" },
   { name: "Block Colour", price: "₹900/block" },
   { name: "Just the Roots", price: "₹2,000+" },
-  { name: "Ammonia Free (Men's)", price: "₹900+" },
+  { name: "Ammonia Free (Men's)", price: "₹1,000+" },
   { name: "Men's Highlights", price: "₹3,500+" },
   { name: "Ammonia Free (Women's)", price: "₹2,000+" },
   { name: "Color Correction", price: "₹4,500+" },
-  { name: "Add-on: Toning", price: "₹2,500+" },
+  { name: "Add-on: Toning", price: "₹3,000+" },
   { name: "Add-on: Box Color/Henna Removal", price: "₹3,500+" },
 ];
 
 /* ──── Category: Hair Spa ──── */
 const spaHeaders = ["Treatment", "Short", "Medium", "Long", "XL"];
 const spaRows = [
-  ["Classic — Nourishing/Smoothing", "₹900", "₹1,100", "₹1,350", "₹1,750"],
-  ["Premium — Nourishing/Smoothing", "₹1,250", "₹1,650", "₹1,850", "₹2,250"],
-  ["Premium — Repairing", "₹1,250", "₹1,650", "₹1,850", "₹2,250"],
-  ["Luxury — Coffee Spa", "₹1,750", "₹1,950", "₹2,250", "₹3,000"],
-  ["Luxury — Keratin Spa", "₹1,900", "₹2,150", "₹2,550", "₹3,200"],
-  ["Luxury — Japanese Lux + Dandruff", "₹2,250", "₹2,750", "₹3,200", "₹3,750"],
+  ["Silk Fusion Spa", "₹1,500", "₹1,750", "₹2,000", "₹2,500"],
+  ["Conditioning Coffee Spa", "₹1,750", "₹1,950", "₹2,250", "₹3,000"],
+  ["Japanese Hair Spa", "₹2,000", "₹2,250", "₹2,750", "₹3,000"],
+  ["Luxury Hair/Scalp Rejuvenation*", "₹2,250", "₹2,500", "₹3,000", "₹3,500"],
   ["Olaplex (with Chemical Treatment)", "₹1,350", "₹1,800", "₹2,250", "₹2,750"],
   ["Olaplex Standalone", "₹2,250", "₹2,750", "₹3,200", "₹3,700"],
 ];
 
 const spaSingles = [
   { name: "Dandruff Ampule (add-on with spa)", price: "₹600" },
+  { name: "Davines Natural Hair/Scalp Therapy", price: "Botanical therapies — consultation required" },
 ];
 
 const hairTreatments = [
@@ -109,29 +108,33 @@ const hairTreatments = [
 
 /* ──── Category: Facials ──── */
 const classicFacials = [
-  { name: "Brightening", price: "₹2,100" },
-  { name: "Tan Removal", price: "₹2,100" },
-  { name: "Chocolate", price: "₹2,200" },
-  { name: "Acne Purification", price: "₹2,000" },
-  { name: "Tangerine Whitening", price: "₹2,050" },
+  { name: "Classic Facial — Glow & Shine", price: "₹2,250" },
+  { name: "Classic Facial — Tan Removal", price: "₹2,250" },
+  { name: "Classic Facial — Chocolate Whitening", price: "₹2,250" },
+  { name: "Classic Facial — Tangerine Whitening", price: "₹2,250" },
+  { name: "Classic Facial — Anti-Ageing", price: "₹2,250" },
+  { name: "Classic Facial — Sensitivity Soothing", price: "₹2,250" },
+  { name: "Classic Facial — Acne Purification", price: "₹2,250" },
 ];
 
 const premiumFacials = [
-  { name: "Jamaican Skin Whitening", price: "₹2,800" },
-  { name: "Ginger & Walnut Even Tone", price: "₹2,600" },
-  { name: "Papaya Sensitive Skin", price: "₹2,800" },
-  { name: "Oil Control", price: "₹2,300" },
-  { name: "Anti Ageing", price: "₹2,450" },
-  { name: "Hydrating & Smoothing", price: "₹3,000" },
-  { name: "Pigmentation Treatment", price: "₹2,800" },
+  { name: "Premium Facial — Jamaican Skin Whitening", price: "₹3,000" },
+  { name: "Premium Facial — Ginger & Walnut Even Tone", price: "₹3,000" },
+  { name: "Premium Facial — Papaya Sensitive Skin", price: "₹3,000" },
+  { name: "Premium Facial — Quinoa Glow Recovery", price: "₹3,000" },
 ];
 
 const luxuryFacials = [
-  { name: "Save the Date — Bridal Facial + Detan", price: "₹4,500" },
-  { name: "Pigmentation & Even Tone", price: "₹3,750" },
-  { name: "Acne Treatment & Oil Control", price: "₹3,250" },
-  { name: "Anti Aging Brightening", price: "₹3,550" },
-  { name: "Whitening Detan Combination", price: "₹3,300" },
+  { name: "Luxury Facial — Whitening Detan Combination", price: "₹3,750" },
+  { name: "Luxury Facial — Sensitive Skin Brightening", price: "₹3,750" },
+  { name: "Luxury Facial — Anti-Ageing Brightening", price: "₹3,750" },
+  { name: "Luxury Facial — Acne Treatment & Oil Control", price: "₹3,750" },
+  { name: "Luxury Facial — Pigmentation & Even Tone", price: "₹3,750" },
+  { name: "Luxury Facial — Hydrating & Smoothing", price: "₹3,750" },
+];
+
+const bridalFacials = [
+  { name: "NIXTUDIO Bridal Exclusive Facial", price: "₹5,000", note: "Tan removal, brightening, deep hydration — wedding-ready glow" },
 ];
 
 /* ──── Category: Cleanup & Detan ──── */
@@ -139,33 +142,35 @@ const cleanupServices = [
   { name: "Normal / Combination Skin Cleanup", price: "₹1,350" },
   { name: "Pro Merge Dry Skin Cleanup", price: "₹1,800" },
   { name: "Pro Matte Oily Skin Cleanup", price: "₹1,800" },
-  { name: "Detan Face", price: "₹550" },
-  { name: "Detan Hands", price: "₹850" },
+  { name: "Detan Face", price: "₹600" },
+  { name: "Detan Hands", price: "₹1,250" },
   { name: "Detan Legs", price: "₹1,250" },
-  { name: "Detan Back / Front", price: "₹850" },
-  { name: "Detan Full Body", price: "₹3,200" },
+  { name: "Detan Back / Front", price: "₹1,000" },
+  { name: "Detan Full Body", price: "₹4,000" },
 ];
 
 /* ──── Category: Pedicure & Manicure ──── */
 const pedicures = [
-  { name: "Classic", price: "₹1,200" },
-  { name: "Premium Milkshake", price: "₹1,800" },
-  { name: "Ice-Cream Radiance", price: "₹2,250" },
+  { name: "Classic Express Pedicure", price: "₹1,250" },
+  { name: "Premium Milkshake Pedicure", price: "₹1,800" },
+  { name: "Ice-Cream Radiance Pedicure", price: "₹2,300" },
   { name: "Jelly Hydra-Boost", price: "₹2,500" },
-  { name: "Cocktail Brightening Algae", price: "₹2,750" },
+  { name: "Cocktail Brightening Algae Pedicure", price: "₹2,750" },
+  { name: "Luxury Softening Lemon Pedicure", price: "₹3,000" },
 ];
 
 const manicures = [
-  { name: "Classic Manicure with Polish", price: "₹650" },
+  { name: "Classic Manicure with Polish", price: "₹750" },
   { name: "Normal Polish (Hand or Feet)", price: "₹200" },
 ];
 
 const pmCombos = [
-  { name: "Classic P&M", price: "₹1,800" },
-  { name: "Premium Milkshake P&M", price: "₹2,250" },
-  { name: "Ice-Cream Radiance P&M", price: "₹2,950" },
+  { name: "Classic P&M", price: "₹2,000" },
+  { name: "Premium Milkshake P&M", price: "₹2,500" },
+  { name: "Ice-Cream Radiance P&M", price: "₹3,000" },
   { name: "Jelly Hydra-Boost P&M", price: "₹3,200" },
-  { name: "Cocktail Brightening Algae P&M", price: "₹3,600" },
+  { name: "Cocktail Brightening Algae P&M", price: "₹3,500" },
+  { name: "Luxury Softening Lemon P&M", price: "₹3,750" },
 ];
 
 /* ──── Category: Gel Nails ──── */
@@ -174,10 +179,10 @@ const nlGel = [
   { name: "Neon Polish", both: "₹1,100", one: "₹650" },
   { name: "Glitter Polish", both: "₹1,250", one: "₹700" },
   { name: "Ombre / Special", both: "₹1,800", one: "₹1,200" },
-  { name: "French Polish", both: "₹1,800", one: "₹1,200" },
+  { name: "French Polish", both: "₹2,000", one: "₹1,400" },
   { name: "Gel with Dry Glitter", both: "₹1,600", one: "₹1,000" },
   { name: "Chrome / Cat Eye", both: "₹1,500", one: "₹850" },
-  { name: "Dip Powder", both: "₹1,350", one: "₹850" },
+  { name: "Dip Powder", both: "₹1,500", one: "₹850" },
   { name: "BIAB / Gel / Acrylic Overlay", both: "₹1,800", one: "₹1,050" }
 ];
 
@@ -189,13 +194,13 @@ const nlArt = [
 ];
 
 const nlExt = [
-  { name: "New Set Form", both: "₹3,000", one: "₹1,650" },
-  { name: "New Set Acrylic", both: "₹2,750", one: "₹1,500" },
-  { name: "New Set Tip Gel", both: "₹2,750", one: "₹1,500" },
-  { name: "Gel Refill", both: "₹2,500", one: "₹1,350" },
-  { name: "Acrylic Refill", both: "₹2,500", one: "₹1,350" },
-  { name: "Soft Gel", both: "₹2,600", one: "₹1,400" },
-  { name: "Gum Gel", both: "₹3,250", one: "₹1,700" },
+  { name: "New Set Form", both: "₹3,250", one: "₹1,800" },
+  { name: "New Set Acrylic", both: "₹2,950", one: "₹1,600" },
+  { name: "New Set Tip Gel", both: "₹2,950", one: "₹1,600" },
+  { name: "Gel Refill", both: "₹2,800", one: "₹1,500" },
+  { name: "Acrylic Refill", both: "₹2,800", one: "₹1,500" },
+  { name: "Soft Gel", both: "₹2,750", one: "₹1,500" },
+  { name: "Gum Gel", both: "₹3,250", one: "₹1,800" },
   { name: "In-Built French", both: "₹3,750", one: "₹2,300" },
   { name: "In-Built Nail Art", both: "₹4,200", one: "₹2,800" },
   { name: "Filing (Add-on)", both: "₹500", one: "₹350" }
@@ -214,8 +219,8 @@ const bodyWaxing = [
   { name: "Underarms", price: "₹350" },
   { name: "Full Back", price: "₹1,050" },
   { name: "Full Front", price: "₹850" },
-  { name: "Full Body", price: "₹3,900" },
-  { name: "Bikini", price: "₹2,050" },
+  { name: "Full Body", price: "₹5,000" },
+  { name: "Bikini", price: "₹2,500" },
 ];
 
 const faceWaxing = [
@@ -241,6 +246,7 @@ const threadingServices = [
 const massageServices = [
   { name: "Head Oil Massage with Hair Wash", price: "₹1,200" },
   { name: "Head Oil Massage (25 mins)", price: "₹700" },
+  { name: "Leg Massage (20 mins)", price: "₹550" },
   { name: "Hand Massage (20 mins)", price: "₹400" },
   { name: "Leg & Hand Massage (30 mins)", price: "₹900" },
 ];
@@ -977,6 +983,14 @@ export default function SalonPage() {
               <p className="label-caps mb-6">Luxury Facial</p>
               <div className="max-w-2xl">
                 <PriceList items={luxuryFacials} />
+              </div>
+            </div>
+          </FadeUp>
+          <FadeUp delay={0.25}>
+            <div className="mt-10">
+              <p className="label-caps mb-6">Bridal Exclusive Facial</p>
+              <div className="max-w-2xl">
+                <PriceList items={bridalFacials} />
               </div>
             </div>
           </FadeUp>

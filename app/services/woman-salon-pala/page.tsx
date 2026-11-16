@@ -106,7 +106,7 @@ export default function WomanSalonPage() {
                 title: "Premium Hair Styling",
                 description: "Expert cuts, color, and styling using the finest products and techniques tailored to your unique features.",
                 image: "/images/studio/luxury-hair-spa-station-pala.webp",
-                price: "From ₹3,500"
+                price: "From ₹550"
               },
               {
                 title: "Glass Skin Treatments",
@@ -118,7 +118,7 @@ export default function WomanSalonPage() {
                 title: "Bespoke Nail Art",
                 description: "Custom nail designs and extensions using premium gel systems for lasting beauty and nail health.",
                 image: nailsImage,
-                price: "From ₹2,000"
+                price: "From ₹150"
               }
             ].map((service, index) => (
               <FadeUp key={service.title} delay={index * 0.1}>

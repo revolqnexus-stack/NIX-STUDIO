@@ -71,9 +71,9 @@ export const bestSalonPalaConfig: SalonSeoPageConfig = {
   ],
   services: [
     { title: 'Hair Styling & Colour', description: 'Precision cuts, blow-dry, updos, ammonia-free colour, keratin & hair botox.', price: 'From ₹550' },
-    { title: 'Gel Nails & Extensions', description: 'Premium gel systems, nail art, extensions, manicure & pedicure.', price: 'From ₹2,000' },
-    { title: 'Facials & Skin', description: 'Glass skin facials, deep cleansing & pre-bridal skin prep.', price: 'From ₹2,500' },
-    { title: 'Waxing & Threading', description: 'Full-body waxing, eyebrow shaping, upper lip & bridal threading.', price: 'From ₹150' },
+    { title: 'Gel Nails & Extensions', description: 'Premium gel systems, nail art, extensions, manicure & pedicure.', price: 'From ₹1,100' },
+    { title: 'Facials & Skin', description: 'Glass skin facials, deep cleansing & pre-bridal skin prep.', price: 'From ₹2,250' },
+    { title: 'Waxing & Threading', description: 'Full-body waxing, eyebrow shaping, upper lip & bridal threading.', price: 'From ₹90' },
     { title: 'Bridal Makeup', description: '#1 bridal makeup artist in Pala — HD & airbrush by Nikita Liby.', price: 'From ₹27,500' },
     { title: 'Party & Guest Makeup', description: 'Engagement, reception & guest styling for every occasion.', price: 'From ₹4,500+' },
   ],
@@ -106,7 +106,7 @@ export const bestSalonPalaConfig: SalonSeoPageConfig = {
     {
       question: 'What are salon prices in Pala at NIXTUDIO?',
       answer:
-        'Hair from ₹550, nails from ₹2,000, facials from ₹2,500, waxing from ₹150, party makeup from ₹4,500+, bridal from ₹27,500. Full menu at nixtudio.in/services.',
+        'Hair from ₹550, nails from ₹1,100, facials from ₹2,250, waxing from ₹90, party makeup from ₹4,500+, bridal from ₹27,500. Full menu at nixtudio.in/services.',
     },
   ],
   areaServed: PALA_LOCAL_AREAS,
@@ -149,10 +149,10 @@ export const bestSalonKottayamConfig: SalonSeoPageConfig = {
   ],
   services: [
     { title: 'Hair Services', description: 'Cuts, styling, colour, keratin, hair botox & bridal updos.', price: 'From ₹550' },
-    { title: 'Nail Lounge', description: 'Gel extensions, nail art, manicure & pedicure.', price: 'From ₹2,000' },
-    { title: 'Facials & Skin', description: 'Glass skin facials, deep cleansing & pre-bridal prep.', price: 'From ₹2,500' },
+    { title: 'Nail Lounge', description: 'Gel extensions, nail art, manicure & pedicure.', price: 'From ₹1,100' },
+    { title: 'Facials & Skin', description: 'Glass skin facials, deep cleansing & pre-bridal prep.', price: 'From ₹2,250' },
     { title: 'Bridal & Party', description: '#1 bridal makeup artist Kottayam trusts — HD & airbrush.', price: 'From ₹27,500' },
-    { title: 'Waxing & Threading', description: 'Eyebrow shaping, face threading & body waxing.', price: 'From ₹150' },
+    { title: 'Waxing & Threading', description: 'Eyebrow shaping, face threading & body waxing.', price: 'From ₹90' },
     { title: 'Party Makeup', description: 'Engagement, reception & guest styling.', price: 'From ₹4,500+' },
   ],
   faqs: [
@@ -184,7 +184,7 @@ export const bestSalonKottayamConfig: SalonSeoPageConfig = {
     {
       question: 'What are salon prices for Kottayam clients at NIXTUDIO?',
       answer:
-        'Hair from ₹550, nails from ₹2,000, facials from ₹2,500, waxing from ₹150, party makeup from ₹4,500+, bridal from ₹27,500. Full menu at nixtudio.in/services.',
+        'Hair from ₹550, nails from ₹1,100, facials from ₹2,250, waxing from ₹90, party makeup from ₹4,500+, bridal from ₹27,500. Full menu at nixtudio.in/services.',
     },
   ],
   areaServed: KOTTAYAM_DISTRICT_AREAS,
@@ -210,15 +210,15 @@ export const hairSalonPalaConfig: SalonSeoPageConfig = {
     'Whether you need a fresh cut before a function, a glossy colour refresh, a sleek keratin treatment, or an intricate bridal updo, our hair team delivers salon results that last in Pala\'s tropical climate.',
   ],
   services: [
-    { title: 'Haircut & Styling', description: 'Precision cuts, layers, blow-dry & everyday styling.', price: 'From ₹3,500' },
-    { title: 'Hair Colour', description: 'Ammonia-free, bleach-free colour with supermodel gloss finish.', price: 'From ₹4,500' },
-    { title: 'Keratin & Hair Botox', description: 'Humidity-proof smoothing treatments for frizz-free Kerala hair.', price: 'From ₹8,000' },
+    { title: 'Haircut & Styling', description: 'Precision cuts, layers, blow-dry & everyday styling.', price: 'From ₹550' },
+    { title: 'Hair Colour', description: 'Ammonia-free, bleach-free colour with supermodel gloss finish.', price: 'From ₹1,000+' },
+    { title: 'Keratin & Hair Botox', description: 'Humidity-proof smoothing treatments for frizz-free Kerala hair.', price: 'From ₹6,000' },
     { title: 'Bridal Hair', description: 'Updos, braids, flowers & reception hair for wedding day.', price: 'From ₹5,000' },
   ],
   faqs: [
     { question: 'What is the best hair salon in Pala?', answer: 'NIXTUDIO is Pala\'s top-rated hair salon, known for ammonia-free colour, keratin treatments, humidity-proof styling, and bridal updos by experienced stylists.' },
     { question: 'Does NIXTUDIO offer keratin treatment in Pala?', answer: 'Yes — we offer premium keratin and hair botox treatments designed for Kerala\'s humid climate, providing 3–6 months of frizz-free, manageable hair.' },
-    { question: 'How much does hair colour cost at NIXTUDIO Pala?', answer: 'Hair colour at NIXTUDIO starts from ₹4,500 depending on length, technique, and product choice. We use ammonia-free, salon-grade colour systems.' },
+    { question: 'How much does hair colour cost at NIXTUDIO Pala?', answer: 'Hair colour at NIXTUDIO starts from ₹1,000+ depending on length, technique, and product choice. We use ammonia-free, salon-grade colour systems.' },
   ],
   galleryCategory: 'hair',
   relatedLinks: [...SALON_LINKS.filter((l) => l.href !== '/hair-salon-pala'), ...BRIDAL_LINKS],
@@ -242,14 +242,14 @@ export const nailSalonPalaConfig: SalonSeoPageConfig = {
     'From minimalist bridal nails to bold chrome art and classic French tips, our nail technicians create designs that photograph beautifully and last through wedding celebrations and everyday wear.',
   ],
   services: [
-    { title: 'Gel Nail Extensions', description: 'Durable gel extensions with natural or dramatic lengths.', price: 'From ₹2,500' },
-    { title: 'Nail Art & Design', description: 'Custom art, chrome, ombre, French & bridal nail designs.', price: 'From ₹2,000' },
-    { title: 'Manicure & Pedicure', description: 'Spa manicure, pedicure, cuticle care & nail health treatments.', price: 'From ₹800' },
+    { title: 'Gel Nail Extensions', description: 'Durable gel extensions with natural or dramatic lengths.', price: 'From ₹2,950' },
+    { title: 'Nail Art & Design', description: 'Custom art, chrome, ombre, French & bridal nail designs.', price: 'From ₹150' },
+    { title: 'Manicure & Pedicure', description: 'Spa manicure, pedicure, cuticle care & nail health treatments.', price: 'From ₹750' },
     { title: 'Bridal Nails', description: 'Coordinated bridal nail designs for your wedding day look.', price: 'From ₹2,500' },
   ],
   faqs: [
     { question: 'What is the best nail salon in Pala?', answer: 'NIXTUDIO\'s nail lounge is Pala\'s top choice for gel nails, extensions, and custom nail art, with premium products and bridal-specialist technicians.' },
-    { question: 'How much do gel nails cost in Pala at NIXTUDIO?', answer: 'Gel nail services start from ₹2,000 for basic gel polish, with extensions and custom art from ₹2,500. Bridal nail packages available.' },
+    { question: 'How much do gel nails cost in Pala at NIXTUDIO?', answer: 'Gel nail services start from ₹1,100 for basic gel polish, with extensions from ₹2,950. Bridal nail packages available.' },
     { question: 'How long do gel nails last at NIXTUDIO?', answer: 'Our gel nail applications typically last 2–3 weeks with proper care. We use premium gel systems for chip-resistant, glossy results.' },
   ],
   galleryCategory: 'nails',
@@ -277,7 +277,7 @@ export const facialSpaPalaConfig: SalonSeoPageConfig = {
     { title: 'Vortex-Fusion HydraFacial', description: 'Medical-grade deep cleanse, extract, hydrate & protect in one session.', price: 'From ₹6,500' },
     { title: 'Glass Skin Facial', description: 'Korean-inspired luminous skin treatment for radiant, translucent finish.', price: 'From ₹4,500' },
     { title: 'Pre-Bridal Skin Prep', description: 'Multi-session skin protocol before your wedding day.', price: 'From ₹3,500' },
-    { title: 'Deep Cleansing & Acne', description: 'Targeted treatments for oily, acne-prone Kerala skin.', price: 'From ₹2,500' },
+    { title: 'Deep Cleansing & Acne', description: 'Targeted treatments for oily, acne-prone Kerala skin.', price: 'From ₹2,250' },
   ],
   faqs: [
     { question: 'Does NIXTUDIO offer HydraFacial in Pala?', answer: 'Yes — NIXTUDIO is among the few salons in Pala offering FDA-approved Vortex-Fusion HydraFacial technology for deep cleansing, hydration, and anti-ageing results.' },
@@ -305,9 +305,9 @@ export const beautyParlourPalaConfig: SalonSeoPageConfig = {
     'Unlike neighbourhood parlours, NIXTUDIO combines salon services with studio-grade hygiene, premium international products, and personalised consultations — the same standard that earned us top rankings for bridal makeup across Kottayam district.',
   ],
   services: [
-    { title: 'Threading & Waxing', description: 'Eyebrow threading, full face, body waxing & bridal threading.', price: 'From ₹150' },
+    { title: 'Threading & Waxing', description: 'Eyebrow threading, full face, body waxing & bridal threading.', price: 'From ₹90' },
     { title: 'Hair & Nails', description: 'Complete hair salon and nail lounge services under one roof.', price: 'From ₹800' },
-    { title: 'Facials & Skin', description: 'HydraFacial, cleanups, bleaching & skin brightening.', price: 'From ₹2,500' },
+    { title: 'Facials & Skin', description: 'HydraFacial, cleanups, bleaching & skin brightening.', price: 'From ₹2,250' },
     { title: 'Makeup Services', description: 'Party, engagement, reception & bridal makeup by Nikita Liby.', price: 'From ₹5,500' },
   ],
   faqs: [
@@ -354,7 +354,7 @@ export const hydrafacialPalaConfig: SalonSeoPageConfig = {
 export const keratinTreatmentPalaConfig: SalonSeoPageConfig = {
   slug: 'keratin-treatment-pala',
   title: 'Keratin Treatment in Pala | Hair Botox & Smoothening | NIXTUDIO',
-  description: 'Best keratin treatment in Pala, Kerala. Humidity-proof keratin & hair botox from ₹8,000. Frizz-free hair for 3–6 months. NIXTUDIO hair salon. Book now.',
+  description: 'Best keratin treatment in Pala, Kerala. Humidity-proof keratin & hair botox from ₹6,000. Frizz-free hair for 3–6 months. NIXTUDIO hair salon. Book now.',
   keywords: ['keratin treatment pala', 'keratin pala kerala', 'hair botox pala', 'keratin treatment kottayam', 'smoothening pala', 'frizz treatment pala', 'best keratin pala'],
   h1Line1: 'Keratin Treatment in',
   h1Accent: 'Pala, Kerala',
@@ -367,14 +367,14 @@ export const keratinTreatmentPalaConfig: SalonSeoPageConfig = {
     'Whether you are preparing for a wedding, recovering from colour damage, or simply tired of daily blow-dry battles, our hair team customises treatment strength to your hair type and lifestyle.',
   ],
   services: [
-    { title: 'Keratin Smoothening', description: 'Full-length frizz control & shine for medium to long hair.', price: 'From ₹8,000' },
-    { title: 'Hair Botox', description: 'Deep repair, volume & smoothness without heavy straightening.', price: 'From ₹9,500' },
+    { title: 'Keratin Smoothening', description: 'Full-length frizz control & shine for medium to long hair.', price: 'From ₹6,000' },
+    { title: 'Hair Botox', description: 'Deep repair, volume & smoothness without heavy straightening.', price: 'From ₹6,000' },
     { title: 'Keratin + Cut Package', description: 'Post-treatment precision cut for best shape.', price: 'From ₹10,500' },
     { title: 'Bridal Hair Prep', description: 'Keratin or botox before wedding-week styling.', price: 'Custom quote' },
   ],
   faqs: [
     { question: 'What is the best keratin treatment in Pala?', answer: 'NIXTUDIO is Pala\'s top choice for keratin and hair botox, using premium products and climate-aware application for long-lasting frizz control in Kerala humidity.' },
-    { question: 'How much does keratin cost in Pala?', answer: 'Keratin treatments at NIXTUDIO start from ₹8,000 depending on hair length and product. Hair botox from ₹9,500. A consultation determines the right treatment.' },
+    { question: 'How much does keratin cost in Pala?', answer: 'Keratin treatments at NIXTUDIO start from ₹6,000 depending on hair length and product. Hair botox from ₹6,000. A consultation determines the right treatment.' },
     { question: 'How long does keratin last in Kerala humidity?', answer: 'With proper aftercare and sulphate-free products, our keratin and botox treatments typically last 3–6 months in Kerala conditions — significantly longer than basic smoothening at neighbourhood parlours.' },
   ],
   galleryCategory: 'hair',
@@ -399,14 +399,14 @@ export const waxingThreadingPalaConfig: SalonSeoPageConfig = {
     'Walk in for eyebrow shaping before a function, or book bridal threading as part of your wedding prep. We serve clients from Pala, Kottayam, Ettumanoor, and Kanjirappally daily.',
   ],
   services: [
-    { title: 'Eyebrow Threading', description: 'Precision shaping & arch definition.', price: 'From ₹150' },
+    { title: 'Eyebrow Threading', description: 'Precision shaping & arch definition.', price: 'From ₹90' },
     { title: 'Full Face Threading', description: 'Upper lip, chin, forehead & sideburns.', price: 'From ₹350' },
-    { title: 'Body Waxing', description: 'Arms, legs, underarms & full body options.', price: 'From ₹500' },
+    { title: 'Body Waxing', description: 'Arms, legs, underarms & full body options.', price: 'From ₹650' },
     { title: 'Bridal Threading', description: 'Pre-wedding face threading & grooming.', price: 'From ₹500' },
   ],
   faqs: [
     { question: 'Where is the best threading in Pala?', answer: 'NIXTUDIO on Thodupuzha Road is trusted for precise eyebrow threading and full-face threading with hygienic single-use thread and studio cleanliness standards.' },
-    { question: 'How much does waxing cost in Pala at NIXTUDIO?', answer: 'Eyebrow threading from ₹150, full face from ₹350, body waxing from ₹500. Full price list at nixtudio.in/services.' },
+    { question: 'How much does waxing cost in Pala at NIXTUDIO?', answer: 'Eyebrow threading from ₹90, full face from ₹350, body waxing from ₹650. Full price list at nixtudio.in/services.' },
     { question: 'Do you offer walk-in threading in Pala?', answer: 'Yes — walk-ins are welcome for threading and basic waxing. Weekends can be busy; WhatsApp 70347 26402 to check wait times.' },
   ],
   relatedLinks: [...SALON_LINKS.filter((l) => l.href !== '/waxing-threading-pala'), ...BRIDAL_LINKS],

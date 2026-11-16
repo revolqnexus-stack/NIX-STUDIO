@@ -230,7 +230,7 @@ export const blogPosts: BlogPost[] = [
         <li>Monthly salon maintenance trim keeps ends healthy</li>
       </ul>
       <p><strong>Ready for frizz-free hair?</strong> <a href="/contact" style="color: #C4903A; font-weight: 600;">Book a hair consultation</a> at NIXTUDIO Pala.</p>
-      <p><em>NIXTUDIO — best hair salon in Pala. Keratin from ₹8,000 · Hair botox from ₹9,500.</em></p>
+      <p><em>NIXTUDIO — best hair salon in Pala. Keratin from ₹6,000 · Hair botox from ₹6,000.</em></p>
     `
   },
   {

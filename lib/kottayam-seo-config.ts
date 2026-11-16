@@ -141,9 +141,9 @@ export const hairSalonKottayamConfig: SalonSeoPageConfig = {
   ],
   services: [
     { title: 'Haircut & Styling', description: 'Precision cuts, blow-dry, tongs & bridal updos.', price: 'From ₹550' },
-    { title: 'Hair Colour', description: 'Ammonia-free, bleach-free colour with supermodel gloss.', price: 'From ₹4,500' },
-    { title: 'Keratin Smoothening', description: 'Humidity-resistant frizz control for 3–6 months.', price: 'From ₹8,000' },
-    { title: 'Hair Botox', description: 'Repair & shine without heavy straightening.', price: 'From ₹9,500' },
+    { title: 'Hair Colour', description: 'Ammonia-free, bleach-free colour with supermodel gloss.', price: 'From ₹1,000+' },
+    { title: 'Keratin Smoothening', description: 'Humidity-resistant frizz control for 3–6 months.', price: 'From ₹6,000' },
+    { title: 'Hair Botox', description: 'Repair & shine without heavy straightening.', price: 'From ₹6,000' },
     { title: 'Bridal Hair', description: 'Wedding & reception updos coordinated with makeup.', price: 'On request' },
   ],
   faqs: [
@@ -160,7 +160,7 @@ export const hairSalonKottayamConfig: SalonSeoPageConfig = {
     {
       question: 'How much does keratin cost for Kottayam clients at NIXTUDIO?',
       answer:
-        'Keratin treatments start from ₹8,000 and hair botox from ₹9,500 depending on hair length. Book a consultation at 70347 26402 for an exact quote.',
+        'Keratin treatments start from ₹6,000 and hair botox from ₹6,000 depending on hair length. Book a consultation at 70347 26402 for an exact quote.',
     },
   ],
   galleryCategory: 'hair',
